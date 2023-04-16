@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Movie Recommendation App</title>
+  </head>
+  <body>
+    <h1>Movie Recommendation App</h1>
+    <label for="genre">Genre:</label>
+    <select id="genre">
+      <option value="">--Select Genre--</option>
+      <option value="action">Action</option>
+      <option value="Adventure">Adventure</option>
+      <option value="Fantasy">Fantasy</option>
+      <option value="Science Fiction">Science Fiction</option>
+    </select>
+
+    <br><br>
+
+    <label for="releaseYear">Release Year:</label>
+    <select id="releaseYear">
+      <option value="">--Select Release Year--</option>
+      <option value="2022">2022</option>
+      <option value="2021-03-18">2021</option>
+      <option value="2020">2020</option>
+      <option value="2019">2019</option>
+      <option value="2019">2018</option>
+      <option value="2019">2017</option>
+      <option value="2019">2016</option>
+      <option value="2019">2015</option>
+
+    </select>
+
+    <br><br>
+
+    <button onclick="getRecommendations()">Get Recommendations</button>
+
+    <br><br>
+
+    <div id="recommendations"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
